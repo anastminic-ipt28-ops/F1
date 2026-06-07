@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #e10600;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+nav {
+    background: #1f1f1f;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #ff3c36;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    background: white;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > h2, main > p, main > section, main > .category-section, main > div {
+    width: 90%;
+    max-width: 1100px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.f1-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.category-section {
+    margin-bottom: 60px;
+}
+
+.category-section h3 {
+    border-left: 5px solid #e10600;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.product-row {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.product-card {
+    flex: 1;
+    min-width: 300px;
+    max-width: 350px;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-color: #e10600;
+}
+
+.product-image-container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+.product-image-container img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+.product-card h4 {
+    margin-bottom: 10px;
+    color: #e10600;
+}
+
+.product-card p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer {
+    background: #1f1f1f;
+    color: #aaa;
+    text-align: center;
+    padding: 25px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background: #e10600;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+h4{
+    text-align: right;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.p1 {
+    margin-bottom: 10px;
+}
+form {
+    margin: 60px;
+}
